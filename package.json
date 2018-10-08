@@ -1,27 +1,9 @@
 {
-  "name": "my_first_vuepress",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
+  "devDependencies": {
+    "vuepress": "^0.14.4"
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yaojenkuo/my_first_vuepress.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/yaojenkuo/my_first_vuepress/issues"
-  },
-  "homepage": "https://github.com/yaojenkuo/my_first_vuepress#readme",
-  "devDependencies": {
-    "vuepress": "^0.14.4"
   }
 }
