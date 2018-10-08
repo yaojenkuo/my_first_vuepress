@@ -7,6 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
+    "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/yaojenkuo/my_first_vuepress/issues"
   },
-  "homepage": "https://github.com/yaojenkuo/my_first_vuepress#readme"
+  "homepage": "https://github.com/yaojenkuo/my_first_vuepress#readme",
+  "devDependencies": {
+    "vuepress": "^0.14.4"
+  }
 }
